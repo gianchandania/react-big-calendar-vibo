@@ -1,9 +1,9 @@
 {
-  "name": "react-big-calendar",
-  "version": "0.20.2",
+  "name": "react-big-calendar-vibo",
+  "version": "1.0.0",
   "description": "Calendar! with events",
-  "author": "Jason Quense <monastic.panic@gmail.com>",
-  "repository": "intljusticemission/react-big-calendar",
+  "author": "Akash Gianchandani <gianchandania@gmail.com>",
+  "repository": "gianchandania/react-big-calendar-vibo",
   "license": "MIT",
   "main": "lib/index.js",
   "style": "lib/css/react-big-calendar.css",
@@ -64,6 +64,7 @@
     "@4c/rollout": "^1.2.0",
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.5",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
     "@storybook/addon-actions": "^3.4.11",
     "@storybook/react": "3.4.11",
     "babel-core": "^7.0.0-bridge.0",
@@ -103,6 +104,9 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
     "@babel/runtime": "^7.1.5",
     "classnames": "^2.2.6",
     "date-arithmetic": "^3.0.0",
