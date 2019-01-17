@@ -1,4 +1,4 @@
-# react-big-calendar
+# react-big-calendar-vibo
 
 An events calendar component built for React and made for modern browsers (read: IE10+) and uses flexbox over the classic tables-ception approach.
 
@@ -21,8 +21,8 @@ element has a height, or the calendar won't be visible.
 ## Run examples locally
 
 ```
-$ git clone git@github.com:intljusticemission/react-big-calendar.git
-$ cd react-big-calendar
+$ git clone git@github.com:gianchandania/react-big-calendar-vibo.git
+$ cd react-big-calendar-vibo
 $ npm install
 $ npm run examples
 ```
@@ -31,7 +31,7 @@ $ npm run examples
 
 ### Localization and Date Formatting
 
-`react-big-calendar` includes two options for handling the date formatting and culture localization, depending
+`react-big-calendar-vibo` includes two options for handling the date formatting and culture localization, depending
 on your preference of DateTime libraries. You can use either the [Moment.js](http://momentjs.com/) or [Globalize.js](https://github.com/jquery/globalize) localizers.
 
 Regardless of your choice, you **must** choose a localizer to use this library:
@@ -39,7 +39,7 @@ Regardless of your choice, you **must** choose a localizer to use this library:
 #### Moment.js
 
 ```js
-import BigCalendar from 'react-big-calendar'
+import BigCalendar from 'react-big-calendar-vibo'
 import moment from 'moment'
 
 const localizer = BigCalendar.momentLocalizer(moment)
@@ -59,7 +59,7 @@ const MyCalendar = props => (
 #### Globalize.js v0.1.1
 
 ```js
-import BigCalendar from 'react-big-calendar'
+import BigCalendar from 'react-big-calendar-vibo'
 import globalize from 'globalize'
 
 const localizer = BigCalendar.globalizeLocalizer(globalize)
